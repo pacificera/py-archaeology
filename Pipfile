@@ -37,6 +37,8 @@ pyyaml = "*"
 docutils = "*"
 jmespath = "*"
 beautifulsoup4 = "*"
+xgboost = "*"
+cloudpickle = "*"
 
 [requires]
 python_version = "3.6"

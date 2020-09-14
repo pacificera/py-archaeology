@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "31504396e788254c20a90ce1c7904492bf566be1901196fba1f51f090d5c70ef"
+            "sha256": "e535d722e80dbe7c2e888e3fa3cf5992452cd8d3171a2cdda301b4d7dacd7328"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,14 +23,6 @@
             ],
             "index": "pypi",
             "version": "==3.2.0"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
-                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
-            ],
-            "markers": "sys_platform == 'darwin' and platform_system == 'Darwin'",
-            "version": "==0.1.0"
         },
         "argon2-cffi": {
             "hashes": [
@@ -222,6 +214,14 @@
             ],
             "index": "pypi",
             "version": "==7.1.2"
+        },
+        "cloudpickle": {
+            "hashes": [
+                "sha256:3a32d0eb0bc6f4d0c57fbc4f3e3780f7a81e6fee0fa935072884d58ae8e1cc7c",
+                "sha256:9bc994f9e9447593bd0a45371f0e7ac7333710fcf64a4eb9834bf149f4ef2f32"
+            ],
+            "index": "pypi",
+            "version": "==1.6.0"
         },
         "colorama": {
             "hashes": [
@@ -1516,6 +1516,16 @@
                 "sha256:bd314f8ceb488571a5ffea6cc5b9fc6cba0adaf88a9d2386b93a489751938bcd"
             ],
             "version": "==3.5.1"
+        },
+        "xgboost": {
+            "hashes": [
+                "sha256:60763bc2fa4db76a05b8267abb3c2472525dc4d0c944ef880517939f550e2c94",
+                "sha256:9e6c1a94b56c3907a214aa72789d088efa4d294ba5ce50f27582dd6e4a7d1701",
+                "sha256:e5f4abcd5df6767293f31b7c58d67ea38b2689641a95b2cd8ca8935295097a36",
+                "sha256:f9f2df87c07032384ccb5bbbd1d4902fc2da927e663fb0cb722ba01f710bb6a1"
+            ],
+            "index": "pypi",
+            "version": "==1.2.0"
         },
         "zipp": {
             "hashes": [
